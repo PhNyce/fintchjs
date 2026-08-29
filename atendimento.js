@@ -40,7 +40,7 @@ function adicionarCliente(){
 
 function atenderCliente(){
     if(fila.length > 0){
-        let nome = fila.shirft();
+        let nome = fila.shift();
         alert(`Cliente ${nome} Atendido!`)
     }else{
         alert("Fila vazia!");
